@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Carousel } from "react-responsive-carousel";
 import ProductSimpleCard from "../components/product/product-simple-card";
 
+import Chat from "@chainlit/components"
+
 export default function Home() {
   const list = [1, 2, 3, 4, 5, 6, 7, 8];
 
